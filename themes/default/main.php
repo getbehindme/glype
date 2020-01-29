@@ -5,6 +5,17 @@
 <title><!--[site_name]--></title>
 <meta name="description" content="<!--[meta_description]-->">
 <meta name="keywords" content="<!--[meta_keywords]-->">
+
+<!-- Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-88735785-2"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-88735785-2');
+</script>
+
 <style type="text/css">
 	/* GLOBAL ELEMENTS */
 	html,body {
@@ -197,6 +208,18 @@
 	});
 	disableOverride();
 </script>
+
+<!-- Adsense Auto Ads -->
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({
+          google_ad_client: "ca-pub-4205835751010395",
+          enable_page_level_ads: true
+     });
+</script>
+
+
+
 </head>
 <body>
 <div id="wrapper">
